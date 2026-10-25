@@ -6,6 +6,9 @@ description = "众所周知，http2的规范要求使用tls作为加密。而当
 [taxonomies]
 categories = ["技术教程"]
 tags = ["golang", "http2"]
+
+[extra]
+comments = "wp-209"
 +++
 
 众所周知，http2的规范要求使用tls作为加密。而当你有其他想法，不想用tls，但想要http2的多路复用时，这就成为阻碍你实现目标的障碍物了。

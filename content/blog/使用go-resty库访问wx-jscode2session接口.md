@@ -6,6 +6,9 @@ description = "之前用django写小程序后端，请求微信接口获取openi
 [taxonomies]
 categories = ["技术教程"]
 tags = ["golang", "resty", "小程序"]
+
+[extra]
+comments = "wp-154"
 +++
 
 之前用django写小程序后端，请求微信接口获取openid时用的都是py的requests库。现在改用go写后端，自然要找功能相似的库来用。

@@ -5,6 +5,9 @@ path = "2022/05/07/关于github账号被标记"
 description = "某天，我的github账号突然变成了这样。 被标记 在被标记之后，个人资料无法被查看，其他账号尝试访问我的主页会显示404，无法使用Github page其他人当然也无法查看我的仓库。好在拉取和提交的功能还正常，没有影响"
 [taxonomies]
 categories = ["随便说说"]
+
+[extra]
+comments = "wp-42"
 +++
 
 某天，我的github账号突然变成了这样。

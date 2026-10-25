@@ -5,6 +5,9 @@ path = "2022/06/22/后台运行cloudcmd并添加自启动"
 description = "项目地址：<https://github.com/coderaiser/cloudcmd 宝塔面板的文件管理功能真的太好用了，可是宝塔面板本身隐私保护方面有不少问题。于是就在网上寻找替代这一功能的开源项目。最后发现了这个"
 [taxonomies]
 categories = ["技术教程"]
+
+[extra]
+comments = "wp-81"
 +++
 
 项目地址：<https://github.com/coderaiser/cloudcmd>

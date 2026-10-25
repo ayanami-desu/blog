@@ -5,6 +5,9 @@ path = "2022/06/14/linux-screen的使用方法记录"
 description = "查看会话列表： screen ls 新建一个会话并进入 screen S <session 要回到某个会话，可执行下列命令 screen r <session 前提是此会话已被detacth，若没有则执行screen d"
 [taxonomies]
 categories = ["技术教程"]
+
+[extra]
+comments = "wp-73"
 +++
 
 - 查看会话列表：

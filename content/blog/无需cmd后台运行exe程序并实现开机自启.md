@@ -6,6 +6,9 @@ description = "在探索naiveproxy之类的exe程序如何方便快捷地在电�
 [taxonomies]
 categories = ["技术教程"]
 tags = ["windows"]
+
+[extra]
+comments = "wp-191"
 +++
 
 在探索naiveproxy之类的exe程序如何方便快捷地在电脑上启动时发现了一种不错的方法。

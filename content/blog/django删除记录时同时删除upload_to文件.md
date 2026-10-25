@@ -6,6 +6,9 @@ description = "Django在admin后台直接删除一条数据时, file = models.Fi
 [taxonomies]
 categories = ["技术教程"]
 tags = ["database", "django", "python"]
+
+[extra]
+comments = "wp-222"
 +++
 
 Django在admin后台直接删除一条数据时, `file = models.FileField(upload_to=‘file’)`上传的文件并不会删除。通过配置钩子函数可以解决这个问题。

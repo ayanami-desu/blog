@@ -5,6 +5,9 @@ path = "2022/05/05/django部署中遇到的小问题"
 description = "Django部署中遇到的小问题 因为自己的小程序后端代码有了更新，所以准备重新部署一次。没想到按照原来的配置setting.py重新上线的后端访问出错了。 错误码是403，显示Error: CSRF Failed: Re"
 [taxonomies]
 categories = ["技术教程"]
+
+[extra]
+comments = "wp-31"
 +++
 
 #### Django部署中遇到的小问题

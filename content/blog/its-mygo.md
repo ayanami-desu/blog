@@ -5,6 +5,9 @@ path = "2024/01/26/its-mygo"
 description = "soyo是最后一个被抓的，当时soyo接到通知要结束乐队，她兴冲冲的刚进livehouse时，她的随身警卫睦即被留在场馆外。soyo感到事情有些不大对头，但也没在意。当soyo快走进正厅大门时，专门对付她的特别行动小组立"
 [taxonomies]
 tags = ["mygo", "动画"]
+
+[extra]
+comments = "wp-240"
 +++
 
 soyo是最后一个被抓的，当时soyo接到通知要结束乐队，她兴冲冲的刚进livehouse时，她的随身警卫睦即被留在场馆外。soyo感到事情有些不大对头，但也没在意。当soyo快走进正厅大门时，专门对付她的特别行动小组立即走了过来。  

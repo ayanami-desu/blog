@@ -6,6 +6,9 @@ description = "来源是南京大学镜像站 原文地址：<https://sci.nju.ed
 [taxonomies]
 categories = ["技术教程"]
 tags = ["docker", "ghcr", "images"]
+
+[extra]
+comments = "wp-197"
 +++
 
 来源是南京大学镜像站

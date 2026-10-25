@@ -6,6 +6,9 @@ description = "因为折腾bbr而尝试安装了新内核，结果却导致vps�
 [taxonomies]
 categories = ["技术教程"]
 tags = ["linux", "racknerd", "vps"]
+
+[extra]
+comments = "wp-219"
 +++
 
 因为折腾bbr而尝试安装了新内核，结果却导致vps无法正常启动。

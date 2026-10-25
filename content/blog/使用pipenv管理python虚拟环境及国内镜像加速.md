@@ -5,6 +5,9 @@ path = "2022/05/04/使用pipenv管理python虚拟环境及国内镜像加速"
 description = "使用pipenv能实现在不同的项目中安装不同的python版本和使用不同的模块，方便项目管理和维护。 但是众所周知，由于国内的网络环境，使用pip下载包时总是会失败，让人及其火大。 临时解决方法 例如： pip inst"
 [taxonomies]
 categories = ["技术教程"]
+
+[extra]
+comments = "wp-27"
 +++
 
 使用pipenv能实现在不同的项目中安装不同的python版本和使用不同的模块，方便项目管理和维护。

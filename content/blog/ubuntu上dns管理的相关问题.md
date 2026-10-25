@@ -6,6 +6,9 @@ description = "一，让systemdresolved不使用127.0.0.53 systemdresolved会产
 [taxonomies]
 categories = ["技术教程"]
 tags = ["dns", "ubuntu"]
+
+[extra]
+comments = "wp-283"
 +++
 
 ## 一，让systemd-resolved不使用127.0.0.53

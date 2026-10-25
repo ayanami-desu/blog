@@ -5,6 +5,9 @@ path = "2023/04/19/something-about-xu-zhiyong-a-true-hero"
 description = "Below are some related article links. If you want to browse them, please delete those emoji in links. https://"
 [taxonomies]
 categories = ["随便说说"]
+
+[extra]
+comments = "wp-216"
 +++
 
 Below are some related article links. If you want to browse them, please delete those emoji in links.

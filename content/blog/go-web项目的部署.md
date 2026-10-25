@@ -5,6 +5,9 @@ path = "2022/09/21/go-web项目的部署"
 description = "下午准备进行个人图站后端的部署。第一次用go写东西，不知道怎么部署，就去搜索了一下。看到最多的方法是使用supervisor 于是我直接apt install supervisor，完成了安装，到了启动这部分直接给我报错"
 [taxonomies]
 categories = ["技术教程"]
+
+[extra]
+comments = "wp-111"
 +++
 
 下午准备进行个人图站后端的部署。第一次用go写东西，不知道怎么部署，就去搜索了一下。看到最多的方法是使用`supervisor`

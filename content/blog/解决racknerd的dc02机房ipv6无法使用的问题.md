@@ -6,6 +6,9 @@ description = "这个问题一般重装之后系统会出现 nano /etc/sysctl.co
 [taxonomies]
 categories = ["随便说说"]
 tags = ["ipv6", "racknerd"]
+
+[extra]
+comments = "wp-200"
 +++
 
 这个问题一般重装之后系统会出现

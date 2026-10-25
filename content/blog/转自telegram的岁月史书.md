@@ -6,6 +6,9 @@ description = "不正确的集体记忆 【2020年】 1月2日,央视:查处8名
 [taxonomies]
 categories = ["随便说说"]
 tags = ["动态清零", "记录"]
+
+[extra]
+comments = "wp-179"
 +++
 
 ### 不正确的集体记忆

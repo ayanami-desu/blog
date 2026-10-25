@@ -6,6 +6,9 @@ description = "终于把9nine 四作推完了。最后描述的那个绝望现�
 [taxonomies]
 categories = ["随便说说"]
 tags = ["9nine", "galgame"]
+
+[extra]
+comments = "wp-156"
 +++
 
 终于把9nine 四作推完了。最后描述的那个绝望现实，让我都放弃一死了之了。但游戏嘛，肯定会有转机的，知道绝望到不能再绝望之后肯定是希望，也就有了动力继续推下去。

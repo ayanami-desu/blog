@@ -6,6 +6,9 @@ description = "首先这个问题的产生有很多可能的原因。启动命�
 [taxonomies]
 categories = ["技术教程"]
 tags = ["docker", "容器"]
+
+[extra]
+comments = "wp-231"
 +++
 
 首先这个问题的产生有很多可能的原因。启动命令不对，容器内程序未接收停止信号之类。

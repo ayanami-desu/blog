@@ -5,6 +5,9 @@ path = "2022/05/18/n1-openwrt固件开启samba方法"
 description = "1、设置共享用户密码 刚开始口令文件是不存在的，先touch，再增加一个用户，ssh输入以下命令： touch /etc/samba/smbpasswd smbpasswd a root 然后输两遍要设置的SMB密码 2"
 [taxonomies]
 categories = ["技术教程"]
+
+[extra]
+comments = "wp-49"
 +++
 
 ### 1、设置共享用户密码

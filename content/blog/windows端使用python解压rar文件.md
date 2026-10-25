@@ -6,6 +6,9 @@ description = "首先吐槽网上的所有教程，全都是错的。连带也�
 [taxonomies]
 categories = ["技术教程"]
 tags = ["python", "unrar", "windows"]
+
+[extra]
+comments = "wp-227"
 +++
 
 首先吐槽网上的所有教程，全都是错的。连带也污染了chatgpt的回答，也是错的。中文互联网的内容已经垃圾到这种地步了。
