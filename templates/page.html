@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} · {{ config.title }}{% endblock %}
+{% block description %}{{ page.description | default(value=config.description) }}{% endblock %}
+{% block canonical %}{{ page.permalink }}{% endblock %}
+
+{% block content %}
+<article class="post">
+  <h1>{{ page.title }}</h1>
+  <div class="post-meta">
+    {% if page.date %}<time datetime="{{ page.date }}">{{ page.date | date(format="%Y-%m-%d") }}</time>{% endif %}
+    {% if page.updated %}<span class="muted">更新于 {{ page.updated | date(format="%Y-%m-%d") }}</span>{% endif %}
+    <span class="muted">{{ page.reading_time }} 分钟</span>
+  </div>
+
+  {% if page.taxonomies.tags %}
+  <div class="chips">
+    {% for tag in page.taxonomies.tags %}
+    <a class="chip" href="{{ get_taxonomy_url(kind='tags', name=tag) }}">{{ tag }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <div class="post-body">
+    {{ page.content | safe }}
+  </div>
+</article>
+
+{% include "partials/giscus.html" %}
+
+<nav class="post-nav">
+  {% if page.lower %}<a href="{{ page.lower.permalink }}">← {{ page.lower.title }}</a>{% else %}<span></span>{% endif %}
+  {% if page.higher %}<a class="next" href="{{ page.higher.permalink }}">{{ page.higher.title }} →</a>{% endif %}
+</nav>
+{% endblock %}

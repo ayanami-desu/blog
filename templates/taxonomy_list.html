@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}{{ taxonomy.name }} · {{ config.title }}{% endblock %}
+{% block canonical %}{{ config.base_url }}/{{ taxonomy.name | slugify }}/{% endblock %}
+
+{% block content %}
+<h1>{{ taxonomy.name }}</h1>
+<div class="chips">
+  {% for term in terms %}
+  <a class="chip" href="{{ get_taxonomy_url(kind=taxonomy.name, name=term.name) }}">{{ term.name }} <span class="muted">{{ term.pages | length }}</span></a>
+  {% endfor %}
+</div>
+{% endblock %}

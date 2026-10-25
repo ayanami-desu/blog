@@ -1,0 +1,41 @@
+base_url = "https://blog.yuugu.re"
+title = "夕暮れ"
+description = "技术、动画与生活的碎片记录。"
+
+default_language = "zh-CN"
+author = "yuugu"
+
+compile_sass = false
+build_search_index = false
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+generate_sitemap = true
+generate_robots_txt = true
+
+taxonomies = [
+    { name = "categories" },
+    { name = "tags" },
+]
+
+# 旧 WordPress 正文里可能出现 {{ }} / {% %}，不当作 Tera 模板处理
+skip_content_templating = ["blog/*"]
+
+[markdown]
+smart_punctuation = false
+external_links_target_blank = true
+external_links_external = false
+lazy_async_image = false
+insert_anchor_links = "none"
+
+[slugify]
+paths = "safe"
+taxonomies = "on"
+anchors = "on"
+
+[extra]
+# giscus: 在 https://giscus.app 填写仓库并启用 Discussions 后，
+# 把下面四项填进来即可显示评论区；留空则整块不渲染。
+giscus_repo = "ayanami-desu/blog"
+giscus_repo_id = "R_kgDOVWdK3Q"
+giscus_category = "Announcements"
+giscus_category_id = "DIC_kwDOVWdK3c4DJjXY"

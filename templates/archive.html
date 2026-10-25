@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}归档 · {{ config.title }}{% endblock %}
+{% block canonical %}{{ config.base_url }}/archive/{% endblock %}
+
+{% block content %}
+<h1>归档</h1>
+{% set blog = get_section(path="blog/_index.md") %}
+{% set_global current_year = "" %}
+<ul class="archive">
+  {% for page in blog.pages %}
+  {% set y = page.date | date(format="%Y") %}
+  {% if y != current_year %}
+  <li class="year"><h2>{{ y }}</h2></li>
+  {% set_global current_year = y %}
+  {% endif %}
+  <li>
+    <span class="meta">{{ page.date | date(format="%m-%d") }}</span>
+    <a href="{{ page.permalink }}">{{ page.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% set blog = get_section(path="blog/_index.md") %}
+<section class="hero">
+  <h1>{{ config.title }}</h1>
+  <p class="muted">{{ config.description }}</p>
+</section>
+
+<ul class="post-list">
+  {% for page in blog.pages %}
+  <li>
+    <a class="post-title" href="{{ page.permalink }}">{{ page.title }}</a>
+    <span class="meta">{{ page.date | date(format="%Y-%m-%d") }}</span>
+  </li>
+  {% endfor %}
+</ul>
+
+<p class="more"><a href="{{ config.base_url }}/archive/">全部文章 →</a></p>
+{% endblock %}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ config.title }}{% endblock %}</title>
+  <meta name="description" content="{% block description %}{{ config.description }}{% endblock %}">
+  <link rel="canonical" href="{% block canonical %}{{ config.base_url }}{% endblock %}">
+  <link rel="stylesheet" href="{{ get_url(path='style.css') }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ get_url(path='atom.xml') }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="{{ config.base_url }}/">{{ config.title }}</a>
+    <nav>
+      <a href="{{ config.base_url }}/blog/">文章</a>
+      <a href="{{ config.base_url }}/archive/">归档</a>
+      <a href="{{ config.base_url }}/bangumi/">番剧</a>
+      <a href="{{ config.base_url }}/tags/">标签</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="site-footer">
+    <span>© {{ now() | date(format="%Y") }} {{ config.title }}</span>
+    <a href="{{ get_url(path='atom.xml') }}">RSS</a>
+  </footer>
+</body>
+</html>

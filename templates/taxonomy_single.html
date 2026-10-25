@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}{{ term.name }} · {{ config.title }}{% endblock %}
+{% block canonical %}{{ get_taxonomy_url(kind=taxonomy.name, name=term.name) }}{% endblock %}
+
+{% block content %}
+<h1>{{ term.name }}</h1>
+<p class="muted">{{ term.pages | length }} 篇文章 · <a href="{{ config.base_url }}/{{ taxonomy.name | slugify }}/">全部 {{ taxonomy.name }}</a></p>
+
+<ul class="post-list">
+  {% for page in term.pages %}
+  <li>
+    <a class="post-title" href="{{ page.permalink }}">{{ page.title }}</a>
+    <span class="meta">{{ page.date | date(format="%Y-%m-%d") }}</span>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}
